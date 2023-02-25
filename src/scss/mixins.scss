@@ -1,0 +1,50 @@
+@mixin reset-list {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: #FFFFFF;
+  padding: 18px 28px;
+  border: 0;
+  background: #B01736;
+  border-radius: 8px;
+  transition: hover 0.3s linear;
+  cursor: pointer;
+  &:hover {
+    background: #D53152;
+  }
+}
+
+
+@mixin link {
+  display: flex;
+
+  .header__link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #444444;
+    cursor: pointer;
+    list-style: none;
+    padding: 10px;
+
+    &:hover {
+      color: #A30C33;
+    }
+
+
+    &__active {
+      color: #A30C33;
+      border-bottom: 3px solid #A30C33;
+    }
+
+    &__disabled {
+      opacity: 0.3;
+    }
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+}

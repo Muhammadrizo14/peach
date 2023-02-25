@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Proxima Nova Condensed', sans-serif;
+  box-sizing: border-box;
+}
+
+
+button {
+  outline: none;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('./fonts/regular.woff'), url('../fonts/regular.woff') format('woff');
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}

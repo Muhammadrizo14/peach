@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <div class="header">
+            <img class="header__logo" src="<%= require('./images/logo.jpg') %>" alt=""/>
+            <ul class="header__list">
+                <li class="header__link">
+                    Облачные решения
+                </li>
+                <li class="header__link">
+                    Кибербезопасность
+                </li>
+                <li class="header__link">
+                    Импортозамещение
+                </li>
+                <li class="header__link">
+                    Цифровая трансформация
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="mainBlock">
+            <div class='container'>
+                <h1 class="mainBlock__title">
+                    Поставщик услуг цифровой трансформации и кибербезопасности
+                </h1>
+                <a href="https://softline.ru" target='_blank'>
+                    <button class="mainBlock__button">
+                        На сайт
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class='container softline'>
+            <h1 class="softline__title">
+                <span>Softline</span> – ведущий поставщик IT-решений и сервисов.* Мы предлагаем комплексные IT-решения,
+                облака, программное
+                и аппаратное обеспечение, решения по цифровой трансформации и кибербезопасности, а также широкий спектр
+                IT-услуг.
+            </h1>
+        </div>
+        <div class='container counter'>
+            <div class='counter__items'>
+                <div class='counter__item'>
+                    <h1 class='counter__item__title'>
+                        > 30 лет
+                    </h1>
+                    <span class='counter__item__subtitle'>на IT-рынке</span>
+                </div>
+                <div class='counter__item'>
+                    <h1 class='counter__item__title'>
+                        4600
+                    </h1>
+                    <span class='counter__item__subtitle'>сотрудников в России</span>
+                </div>
+                <div class='counter__item'>
+                    <h1 class='counter__item__title'>
+                        25
+                    </h1>
+                    <span class='counter__item__subtitle'>городов России</span>
+                </div>
+            </div>
+            <div class="counter__items">
+                <div class='counter__item'>
+                    <h1 class='counter__item__title'>
+                        2000 +
+                    </h1>
+                    <span class='counter__item__subtitle'>разработчиков</span>
+                </div>
+                <div class='counter__item'>
+                    <h1 class='counter__item__title'>
+                        3000 +
+                    </h1>
+                    <span class='counter__item__subtitle price__study'>сотрудников ежегодно проходят оценку и обучение</span>
+                </div>
+            </div>
+        </div>
+        <div class="office">
+            <div class="office__header">
+                <div class="container">
+                    <div class="office__header__dropdown__open">
+                        <h1 class="office__header__dropdown__open__title">Офисы Softline</h1>
+                        <img src="<%= require('./images/office/rowdown.png') %>" alt="">
+                    </div>
+                    <div class="scroll">
+                        <ul class="office__header__list">
+                            <li class="header__link office__link header__link__active">Все</li>
+                            <li class="header__link office__link">Москва</li>
+                            <li class="header__link office__link">Центр</li>
+                            <li class="header__link office__link">Северо-Запад</li>
+                            <li class="header__link office__link">Юг</li>
+                            <li class="header__link office__link">Волга</li>
+                            <li class="header__link office__link">Урал</li>
+                            <li class="header__link office__link">Сибирь</li>
+                            <li class="header__link office__link">Дальний восток</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="office__header__dropdown">
+                    <div class="container">
+                        <ul class="office__header__dropdown__list">
+                            <li class="office__header__dropdown__link">Москва</li>
+                        </ul>
+                        <ul class="office__header__dropdown__list">
+                            <li class="office__header__dropdown__link">Центр</li>
+                            <li class="office__header__dropdown__link">Воронеж</li>
+                            <li class="office__header__dropdown__link">Ярославль</li>
+                            <li class="office__header__dropdown__link">Белгород</li>
+                        </ul>
+                        <ul class="office__header__dropdown__list">
+                            <li class="office__header__dropdown__link">Северо-Запад</li>
+                            <li class="office__header__dropdown__link">Санкт-Петербург</li>
+                            <li class="office__header__dropdown__link">Калининград</li>
+                        </ul>
+                        <ul class="office__header__dropdown__list">
+                            <li class="office__header__dropdown__link">Юг</li>
+                            <li class="office__header__dropdown__link">Ростов-на-Дону</li>
+                            <li class="office__header__dropdown__link">Краснодар</li>
+                            <li class="office__header__dropdown__link">Волгоград</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container office__map__structure">
+                <div class="office__map__image__wrapper">
+                    <img class="office__map__image" src="<%= require('./images/map.png') %>" alt="">
+                </div>
+                <div class="office__map">
+                    <div class="office__wrapper">
+                        <div class="office__country">
+                            <div class="office__country__box"></div>
+                            <p class="office__country__name">Калининград</p>
+                        </div>
+                    </div>
+                    <div class="office__wrapper">
+                        <div class="office__country">
+                            <div class="office__country__box"></div>
+                            <p class="office__country__name">Санкт-Петербург</p>
+                        </div>
+                    </div>
+                    <div class="office__wrapper">
+                        <div class="office__country">
+                            <div class="office__country__box"></div>
+                            <p class="office__country__name">Воронеж</p>
+                        </div>
+                    </div>
+                    <div class="office__wrapper">
+                        <div class="office__country">
+                            <div class="office__country__box"></div>
+                            <p class="office__country__name">Москва</p>
+                        </div>
+                    </div>
+                    <div class="office__wrapper">
+                        <div class="office__country">
+                            <div class="office__country__box"></div>
+                            <p class="office__country__name">Уфа</p>
+                        </div>
+                    </div>
+                    <div class="office__wrapper">
+                        <div class="office__country">
+                            <div class="office__country__box"></div>
+                            <p class="office__country__name">Краснодар</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mission">
+            <div class="arrapw">
+                <img class="img__one" src="<%= require('./images/mission/left.png') %>" alt=""/>
+            </div>
+            <div class="mission__info">
+                <h1 class="mission__title">Миссия Softline</h1>
+                <p class="mission__subtitle">
+                    Мы помогаем организациям трансформироваться, работать эффективно и безопасно в условиях цифровой
+                    экономики.
+                </p>
+            </div>
+            <div class="arrapw">
+                <img class="img__two" src=" <%= require('./images/mission/right.png') %>" alt=""/>
+            </div>
+        </div>
+        <div class="business container">
+            <h1 class="business__title">Направления бизнеса</h1>
+            <div class="business__items">
+                <div class="business__item"
+                     style="background-image: url(' <%= require('./images/business/1.png') %>')">
+                    <div class="business__item__info">
+                        <div class="business__item__info__title__wrap">
+                            <h1 class="business__item__info__title">Решения Softline</h1>
+                            <img src=" <%= require('./images/business/businessArrow.png') %>" alt="">
+                        </div>
+                        <h1 class="business__item__info__subtitle">ГК Softline предлагает клиентам собственную линейку оборудования (ПК, серверы, торговое оборудование и проч.), разработку программных продуктов, облачных решений, решений в области информационной безопасности.</h1>
+                    </div>
+                </div>
+                <div class="business__item"
+                     style="background-image: url(' <%= require('./images/business/2.png') %>')">
+                    <div class="business__item__info">
+                        <div class="business__item__info__title__wrap">
+                            <h1 class="business__item__info__title">Решения Softline</h1>
+                            <img src=" <%= require('./images/business/businessArrow.png') %>" alt="">
+                        </div>
+                        <h1 class="business__item__info__subtitle">Softline обладает всеми необходимыми государственными лицензиями для организации проектов по информационной безопасности и аттестации. </h1>
+                    </div>
+                </div>
+                <div class="business__item"
+                     style="background-image: url(' <%= require('./images/business/3.png') %>')">
+                    <div class="business__item__info">
+                        <div class="business__item__info__title__wrap">
+                            <h1 class="business__item__info__title">Решения Softline</h1>
+                            <img src=" <%= require('./images/business/businessArrow.png') %>" alt="">
+                        </div>
+                        <h1 class="business__item__info__subtitle">ГК Softline обладает широчайшим портфелем решений и услуг для импортозамещения, включая ПО и оборудование собственного производства.</h1>
+                    </div>
+                </div>
+                <div class="business__item"
+                     style="background-image: url(' <%= require('./images/business/4.png') %>')">
+                    <div class="business__item__info">
+                        <div class="business__item__info__title__wrap">
+                            <h1 class="business__item__info__title">Решения Softline</h1>
+                            <img src=" <%= require('./images/business/businessArrow.png') %>" alt="">
+                        </div>
+                        <h1 class="business__item__info__subtitle">Softline использует современные облачные решения как российских, так и международных вендоров для масштабирования бизнеса своих клиентов. Подписки, услуги, трансформация.</h1>
+                    </div>
+                </div>
+                <div class="business__item"
+                     style="background-image: url(' <%= require('./images/business/5.png') %>')">
+                    <div class="business__item__info">
+                        <div class="business__item__info__title__wrap">
+                            <h1 class="business__item__info__title">Решения Softline</h1>
+                            <img src=" <%= require('./images/business/businessArrow.png') %>" alt="">
+                        </div>
+                        <h1 class="business__item__info__subtitle">Softline использует современные технологи и новые возможности для увеличения производительности бизнеса заказчика. В штате ГК Softline - 2000+ разработчиков, которые трансформируют ПО под нужды конкретного предприятия.</h1>
+                    </div>
+                </div>
+                <div class="business__item"
+                     style="background-image: url(' <%= require('./images/business/6.png') %>')">
+                    <div class="business__item__info">
+                        <div class="business__item__info__title__wrap">
+                            <h1 class="business__item__info__title">Решения Softline</h1>
+                            <img src=" <%= require('./images/business/businessArrow.png') %>" alt="">
+                        </div>
+                        <h1 class="business__item__info__subtitle">200+ инженеров, 24 часа в сутки, 7 дней в неделю, 12 месяцев в году, сервисное партнерство с 30+ мировыми производителями.</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='compensation container'>
+            <h1 class="compensation__title">Компенсационный пакет</h1>
+            <div class="compensation__items">
+
+                <div class="compensation__item">
+                    <div class="compensation__item__image">
+                        <img src="<%= require('./images/compensation/1.png') %>" alt=""/>
+                    </div>
+                    <p>Дмс</p>
+                </div>
+
+                <div class="compensation__item">
+                    <div class="compensation__item__image">
+                        <img src="<%= require('./images/compensation/2.png') %>" alt=""/>
+                    </div>
+                    <p>Выходной в день рождения</p>
+                </div>
+                <div class="compensation__item">
+                    <div class="compensation__item__image">
+                        <img src="<%= require('./images/compensation/3.png') %>" alt=""/>
+                    </div>
+                    <p>Корпоративная мобильная связь</p>
+                </div>
+                <div class="compensation__item">
+                    <div class="compensation__item__image">
+                        <img src="<%= require('./images/compensation/4.png') %>" alt=""/>
+                    </div>
+                    <p>Корпоративные скидки на спорт</p>
+                </div>
+                <div class="compensation__item">
+                    <div class="compensation__item__image">
+                        <img src="<%= require('./images/compensation/5.png') %>" alt=""/>
+                    </div>
+                    <p>LTI</p>
+                </div>
+
+            </div>
+            <div class="compensation__line"></div>
+            <div class="compensation__motion">
+                <h1 class="compensation__motion__title">Программа дополнительной мотивации <br/><span>доплата 12% от суммы</span>
+                </h1>
+                <div class="compensation__items">
+                    <div class="compensation__item compensation__motion__item">
+                        <div class="compensation__item__image">
+                            <img src="<%= require('./images/compensation/6.png') %>" alt=""/>
+                        </div>
+                        <p>Оргтехники</p>
+                    </div>
+                    <div class="compensation__item compensation__motion__item">
+                        <div class="compensation__item__image">
+                            <img src="<%= require('./images/compensation/1.png') %>" alt=""/>
+                        </div>
+                        <p>ДМС</p>
+                    </div>
+                    <div class="compensation__item compensation__motion__item">
+                        <div class="compensation__item__image">
+                            <img src="<%= require('./images/compensation/7.png') %>" alt=""/>
+                        </div>
+                        <p>Ипотеки</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="life container">
+            <div class="life__header">
+                <h1 class="life__header__title">Корпоративная жизнь</h1>
+                <div class="life__header__arrows">
+                    <div class="swiper-button-prev life__header__arrow life__header__arrow__prev"></div>
+                    <div class="swiper-button-next life__header__arrow life__header__arrow__next"></div>
+                </div>
+
+            </div>
+            <div class="life__swiper">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="<%= require('./images/life/1.png') %>" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="<%= require('./images/life/2.png') %>" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="<%= require('./images/life/3.png') %>" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="<%= require('./images/life/4.png') %>" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="<%= require('./images/life/5.png') %>" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination life__swiper__pagination"></div>
+            </div>
+        </div>
+
+
+    </main>
+</div>
+</body>
+</html>

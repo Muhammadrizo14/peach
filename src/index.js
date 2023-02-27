@@ -7,7 +7,6 @@ require('./js/business') // business scripts
 require('./js/animations') // animation
 
 
-
 // Slider scripts
 var swiper = new Swiper(".mySwiper", {
   modules: [Navigation, Pagination],
@@ -21,4 +20,10 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 
-
+window.onload = function() {
+  var preloader = document.getElementById('page-preloader');
+  if( !preloader.classList.contains('done') )
+  {
+    preloader.classList.add('done');
+  }
+};
